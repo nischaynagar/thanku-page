@@ -1,0 +1,244 @@
+.App{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  width: 100%;
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  color: #FEFEFE;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img{
+  width: 30px;
+  height: 30px;
+}
+
+.thanku-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.thanku-txt{
+  font-family: 'Phenomicon Laser';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  gap: 1rem;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.highlighted{
+  color: #27B67A;    
+  font-weight: 500;
+}
+
+.content-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.thanku-wrapper p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  max-width: 400px;
+  color: #FFFFFF;
+}
+
+.contacts-div{
+  display: flex;
+  gap: 30px;
+}
+
+.contacts-div img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.contactUs-txt{
+  display: flex;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 40px;
+  text-align: center;
+  gap: 10px;
+}
+
+.main-footer{
+  display: flex;
+  justify-content: space-between;
+  background: #121212;
+  padding: 2% 8% 2% 8%;
+}
+
+.title{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-icon-div{
+  display: flex;
+  gap: 10px;
+}
+
+.social-icon-div img{
+  cursor: pointer;
+}
+
+.signup-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: center;
+}
+
+.signup-input{
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border-radius: 10px
+}
+
+.signup-input img{
+  background: #27B67A;
+  width: 15px;
+  height: 15px;
+}
+
+.signup-input input{
+  height: 100%;
+  border: none;
+  height: 47px;
+  background: #1F1F1F;
+  color: white;
+  padding: 16px;
+  line-height: 10px;
+  font-size: 15px;
+}
+
+.signup-input button{
+  border: none;
+  padding: 16px 14px;
+  background: #27B67A;
+}
+
+.signup-txt{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+.webpage-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.desc{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.title p{
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
+}
+
+.title-desc{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.71);
+}
+
+.socials{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-logo-div{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.thumbsup-icon{
+  position: absolute;
+  right: 0;
+  transform: translateY(35%);
+}
+
+.footer-logo-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 700px) {
+  .thumbsup-icon{
+    scale: 0.5;
+    transform: translate(50%, 100%);
+  }
+  .social-icon-div img{
+    scale: 0.75;
+  }
+  .social-icon-div{
+    gap: 0;
+  }
+}
