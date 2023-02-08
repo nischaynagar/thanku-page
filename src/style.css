@@ -44,7 +44,7 @@
   font-family: 'Phenomicon Laser';
   font-style: normal;
   font-weight: 400;
-  font-size: 80px;
+  font-size: 6rem;
   line-height: 90px;
   gap: 1rem;
   text-align: center;
@@ -69,10 +69,10 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 2rem;
   text-align: center;
-  max-width: 400px;
+  max-width: 450px;
   color: #FFFFFF;
 }
 
@@ -91,7 +91,7 @@
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 40px;
   text-align: center;
   gap: 10px;
@@ -229,13 +229,13 @@
   gap: 8px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   .main-footer{
     padding: 5% 8% 5% 8%;
   }
   .thumbsup-icon{
     scale: 0.5;
-    transform: translate(50%, 25%);
+    transform: translate(50%, 10%);
   }
   .socials{
     font-size: 0.75rem;
@@ -253,10 +253,17 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    width: 80%;
+    width: 70%;
     margin-top: 10%;
     font-size: 2rem;
     line-height: 40px;
     text-align: center;
+  }
+  .thanku-txt{
+    font-size: 5rem;
+  }
+  .thanku-wrapper p{
+    max-width: 400px;
+    font-size: 1rem;
   }
 }
