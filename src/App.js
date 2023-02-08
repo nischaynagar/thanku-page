@@ -32,7 +32,7 @@ function App() {
         </div>
         <div className='contactUs-txt'>Can’t wait? Contact us 
           <span className='highlighted'>
-            NOW
+           {" "}NOW
           </span>
         </div>
         <div className='contacts-div'>

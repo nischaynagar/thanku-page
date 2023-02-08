@@ -62,7 +62,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 2em;
 }
 
 .thanku-wrapper p{
@@ -88,7 +88,6 @@
 }
 
 .contactUs-txt{
-  display: flex;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -231,14 +230,33 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .main-footer{
+    padding: 5% 8% 5% 8%;
+  }
   .thumbsup-icon{
     scale: 0.5;
-    transform: translate(50%, 100%);
+    transform: translate(50%, 25%);
+  }
+  .socials{
+    font-size: 0.75rem;
   }
   .social-icon-div img{
     scale: 0.75;
   }
   .social-icon-div{
+    display: flex;
     gap: 0;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .contactUs-txt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    width: 80%;
+    margin-top: 10%;
+    font-size: 2rem;
+    line-height: 40px;
+    text-align: center;
   }
 }
